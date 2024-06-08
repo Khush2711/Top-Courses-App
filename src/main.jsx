@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <div>
-    <ToastContainer style={`${window.innerWidth <= 500 ? 'width:50px !important':''}`}/>
+    <ToastContainer/>
     <App />
   </div>
 )

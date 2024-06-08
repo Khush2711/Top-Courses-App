@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,6 +8,26 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
     background-color: #4a4e69;
+}
+
+.Toastify__toast-container {
+    width: 300px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .Toastify__toast-container {
+        width: 250px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .Toastify__toast-container {
+        width: 200px;
+    }
 }
